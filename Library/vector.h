@@ -1,6 +1,7 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
+#include <iostream>
 // Vector (dynamic array)
 // Stores integer values inside
 typedef int Data;

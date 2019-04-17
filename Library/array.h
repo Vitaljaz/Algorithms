@@ -1,6 +1,7 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 
+#include <iostream>
 // Non-resizeable array
 // Stores integer values inside
 typedef int Data;

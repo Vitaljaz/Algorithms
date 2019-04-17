@@ -14,6 +14,10 @@ int main()
     for (int i = 0 ; i < 10 ; ++i)
         if (array_get(arr, i) != i * 2)
             std::cout << "Invalid array element " << i << "\n";
+
+	for (int i = 0; i < 10; ++i) {
+		std::cout << array_get(arr, i) << " ";
+	}
     
     array_delete(arr);
 }
